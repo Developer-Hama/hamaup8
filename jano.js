@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const jano = new Discord.Client();
 //////// playing or dnd  streaming ////////
-jano.on("ready", () => {
+jano.on("ready", (ShexaXayall) => {
   console.log(`Online In Servers`);
   let statuses = [`JUST ALLAH`];
   setInterval(function() {
@@ -18,4 +18,4 @@ jano.on("ready", () => {
   if (join) join.join();
 });
 //////////////// tokn lera da bne
-jano.login("");
+jano.login("OTI4OTk0MjMxMTEwOTk2MDE4.YfZefQ.7WaoUDMwK_hZT00yoInr7PP4VKU");
